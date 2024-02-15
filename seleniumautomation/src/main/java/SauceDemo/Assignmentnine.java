@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import java.util.List;
 
@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignmentnineone {
+public class Assignmentnine {
 
 	public static void main(String[] args) throws InterruptedException
 	{
@@ -18,20 +19,16 @@ public class Assignmentnineone {
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.xpath("//a[text()='Create new account']")).click();
 		Thread.sleep(2000);
-		List<WebElement>all=driver.findElements(By.id("month"));
-		System.out.println("below all the list of dropdown");
-		for(WebElement dd:all)
-		{
-			System.out.println(dd.getText());
-		
-		if(dd.getText().equalsIgnoreCase("Feb"))
-		{
-			dd.click();
-			System.out.println("selected options "+dd.getText());
-			
-		}
-
+		List<WebElement> alloption=driver.findElements(By.xpath("//select[@aria-label=\"Month\"]"));
+		System.out.println(alloption.size());
+        for(WebElement one:alloption)
+        {
+        	System.out.println(one.getText());
+        }
+        WebElement ele1=driver.findElement(By.id("month"));
+        boolean ele2=ele1.isDisplayed();
+         Assert.assertTrue(ele2);
+      }
 	}
 
-}
-}
+

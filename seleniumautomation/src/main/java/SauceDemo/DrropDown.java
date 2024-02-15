@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import static org.testng.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

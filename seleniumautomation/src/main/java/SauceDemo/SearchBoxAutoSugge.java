@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 

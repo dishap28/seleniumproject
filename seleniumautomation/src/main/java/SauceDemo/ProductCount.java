@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignment5 {
+public class ProductCount {
 
 	public static void main(String[] args) throws InterruptedException 
 	{

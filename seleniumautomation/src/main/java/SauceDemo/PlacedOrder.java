@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignment4 {
+public class PlacedOrder {
 
 	public static void main(String[] args) throws InterruptedException
 	{

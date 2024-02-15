@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,13 +23,13 @@ public class ActionClasses {
 //		action.contextClick(element).build().perform();
 		
 		//double click
-//		WebDriverManager.chromedriver().setup();
-//		WebDriver driver=new ChromeDriver();
-//		driver.get("https://artoftesting.com/samplesiteforselenium");
-//		Actions action=new Actions(driver);
-//		WebElement element1=driver.findElement(By.id("dblClkBtn"));
-//		action.doubleClick(element1).build().perform();
-//		System.out.println("double click is done");
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://artoftesting.com/samplesiteforselenium");
+		Actions action=new Actions(driver);
+		WebElement element1=driver.findElement(By.id("dblClkBtn"));
+		action.doubleClick(element1).build().perform();
+		System.out.println("double click is done");
 		
 		
 	}

@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 
 import org.testng.Assert;
@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignment9 {
+public class BstackdemoWebsite {
 
 	public static void main(String[] args)
 	{

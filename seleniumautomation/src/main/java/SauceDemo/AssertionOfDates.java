@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignment8 {
+public class AssertionOfDates {
 
 	public static void main(String[] args) throws InterruptedException 
 	{

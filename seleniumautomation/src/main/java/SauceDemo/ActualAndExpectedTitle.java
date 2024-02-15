@@ -1,4 +1,4 @@
-package disha;
+package SauceDemo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Assignment1 {
+public class ActualAndExpectedTitle {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
